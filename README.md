@@ -1,12 +1,14 @@
 JSON Server Mock Authentication Services
 ============
 
-## Installation
-
-### Bower Installation
+## Bower Dependencies
 ```sh
 $ bower install --save angular-cookies
 ```
+
+## JSON Server Dependenices
+
+You must have an entry of users with a username as well as a password field in your db.json file.
 
 ## Usage
 - Include `json-server-auth` into your app index.html
